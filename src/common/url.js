@@ -1,0 +1,53 @@
+import {Store} from '@common';
+
+const url = {
+    homeconfigurl : Store.baseurl+'app_configs',
+    imageuploadurl : Store.baseurl+'customers/imageupload',
+    updateuseraddress : Store.baseurl+'customers/',
+    createnewuserurl : Store.baseurl+'auth/register',
+    bannerurl : Store.baseurl+'banners',
+    loginurl : Store.baseurl + 'auth/login',
+    newaccounturl : Store.baseurl + 'auth/register',
+    menulisturl : Store.baseurl+'menu/list',
+    listbycategoryurl : Store.baseurl+'menu/getCategoryMenuList',
+    fashionmenulisturl : Store.baseurl+'fashion/list',
+    categorymenulisturl : Store.baseurl+'food/list',
+    categoriesurl : Store.baseurl+'menu/categories',
+    offersmenulisturl : Store.baseurl+'menu/offermenuitems',
+    phonenumberauthurl : Store.baseurl+'auth/phoneauth',
+    otpverifyurl : Store.baseurl+'auth/phoneauthvalidation',
+    updateuserinfourl : Store.baseurl+'customers/',
+    neworderurl : Store.baseurl+'orders',
+    rateusurl : 'http://www.artest.softmint.net/abc.html',
+    privacypolicyurl : 'https://www.softmint.net/privacypolicy',
+    restaurantlisturl : Store.baseurl+'restaurant/list',
+    restaurantalllisturl : Store.baseurl+'restaurant/alllist',
+    locationupdateurl : Store.baseurl+'customers/',
+    googleauthurl : Store.baseurl+'auth/googleauth',
+    appleauthurl : Store.baseurl+'auth/appleauth',
+    getorderdetailsurl : Store.baseurl+'orders/getOrderDetails',
+    getalloffersurl : Store.baseurl+'offers/getalloffers',
+    getcartoffersurl : Store.baseurl+'offers/getcartoffers',
+    getrestaurantdetailsurl : Store.baseurl+'restaurant/getrestaurantdetails',
+    getesttimeurl : Store.baseurl+'orders/getDeliveryTime',
+    getcustomerordersdetailurl : Store.baseurl+'orders/getCustomerOrderDetails',
+    rateorderurl : Store.baseurl+'orders/rateOrder',
+    deliveryareaurl : Store.baseurl+'deliveryarea',
+    getappsettings : Store.baseurl+'restaurant/getappsettings',
+    getrestaurantreviewurl : Store.baseurl+'orders/getrating',
+    getcartcalculations : Store.baseurl+'orders/cart',
+    getuserongoingordersurl : Store.baseurl+'orders/getOngoingOrders',
+    resetpasswordurl : Store.baseurl+'auth/fogetpassword',
+    cancelorderurl : Store.baseurl+'merchant/updateOrderStatus',
+
+    foodsbannerurl : Store.baseurl+'banners/foods',
+    grocerybannerurl : Store.baseurl+'banners/grocery',
+    fashionbannerurl : Store.baseurl+'banners/fashion',
+    
+    getcategorylisturl : Store.baseurl+'restaurant/getcategory',
+    orderdetailsforreviewurl : Store.baseurl+'orders/getOrderforReview',
+    revieworder : Store.baseurl+'orders/revieworder',
+    getnearestrestauranturl: Store.baseurl+'getnearestrestaurant'
+}
+
+export default url;

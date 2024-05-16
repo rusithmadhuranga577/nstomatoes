@@ -1,0 +1,38 @@
+/**@format */
+
+const Images = {
+    SplashBg : require('@images/splash.jpeg'),
+    // SplashTop : require('@images/splashtop.png'),
+    GoogleIcon : require('@images/buttonimages/google.png'),
+    AppleIcon : require('@images/buttonimages/appleicon.png'),
+    GuestIcon : require('@images/buttonimages/guest.png'),
+    FacebookIcon : require('@images/buttonimages/facebook.png'),
+    UsernamePassword : require('@images/buttonimages/usernamepassword.png'),
+    PhoneIcon : require('@images/buttonimages/phone.png'),
+    Logo : require('@images/logo.png'),
+    UserLocationMarker : require('@images/userlocation.png'),
+    UserPlaceHolder : 'http://app.nstomatoes.foodsmint.com/uploads/userplaceholder.png',
+    BannerImage : require('@images/banner.jpg'),
+    Direction : require('@images/direction.png'),
+    orderpending : require('@images/orderstatus/pending.png'),
+    orderconfirmed : require('@images/orderstatus/confirmed.png'),
+    orderpreparing : require('@images/orderstatus/preparing.png'),
+    orderprepared : require('@images/orderstatus/prepared.png'),
+    orderdelivered : require('@images/orderstatus/delivered.png'),
+    drivericon : 'https://image.freepik.com/free-vector/delivery-man-riding-red-scooter-illustration_9845-14.jpg',
+    storelistempty : require('@images/storesempty.png'),
+    foodicon : require('@images/foodvector.png'),
+    groceryicon : require('@images/groceryvector.png'),
+    orderplacefailed : require('@images/orderplacefailed.png'),
+    ordepack : require('@images/orderpackvector.png'),
+    deliveryboy : require('@images/deliveryboyvector.png'),
+    loginbg : require('@images/login.png'),
+    eatsimage : require('@images/eatsimage.png'),
+    groceryimage : require('@images/groceryimage.png'),
+    fashionimage : require('@images/fashionimage.png'),
+    ordercanceled : require('@images/ordercanceled.png'),
+    logincontainerimage : require('@images/logincontainerimage.png'),
+    loginalertimage : require('@images/loginalertimage.jpg'),
+    topbarimage: require('@images/top_bar_image.png')
+}
+export default Images;
